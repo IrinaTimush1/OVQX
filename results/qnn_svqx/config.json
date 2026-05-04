@@ -1,0 +1,47 @@
+{
+  "mode": "both",
+  "k_values": [
+    1,
+    8,
+    16,
+    32
+  ],
+  "num_runs": 5,
+  "alpha": 0.01,
+  "base_seed": 123,
+  "n_jobs": 5,
+  "data_path": "/Users/iratimush/xqml-thesis/data/qnn-data.csv",
+  "output_dir": "/Users/iratimush/xqml-thesis/results/qnn_svqx",
+  "use_paper_theta": true,
+  "train": false,
+  "theta": [
+    3.86,
+    -1.07,
+    -1.583,
+    0.86
+  ],
+  "paper_locked_instructions_0_based": [
+    0,
+    2
+  ],
+  "paper_active_gates_1_based": [
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "value_function": "one-shot test accuracy; first-qubit readout; no retraining"
+}
